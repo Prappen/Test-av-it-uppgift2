@@ -1,0 +1,29 @@
+2023-05-06 14:29:37.671 [main] INFO  org.example.LTUWebAutomation - Info log message
+2023-05-06 14:29:37.676 [main] ERROR org.example.LTUWebAutomation - Error log message
+2023-05-06 14:34:37.676 [main] INFO  com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2023-05-06 14:34:37.689 [main] INFO  com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\johan\OneDrive\Skrivbord\java\openjfx-20_windows-x64_bin-sdk\javafx-sdk-20\lib\untitled3\build\downloads\1683376477679_61312_1
+2023-05-06 14:34:39.965 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+2023-05-06 14:34:39.989 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\johan\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe
+2023-05-06 14:34:43.536 [main] INFO  com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
+2023-05-06 14:34:43.537 [main] INFO  com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
+2023-05-06 14:34:43.537 [main] INFO  com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
+2023-05-06 14:34:43.689 [main] INFO  com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=112.0.5615.138 Platform=WINDOWS
+2023-05-06 14:34:43.690 [main] INFO  com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.23.3
+2023-05-06 14:34:43.690 [main] INFO  com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+2023-05-06 14:34:43.690 [main] INFO  com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (1c10fb5d3a91935616b93c1d85001e06)
+2023-05-06 14:34:43.692 [main] INFO  com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (1c10fb5d3a91935616b93c1d85001e06), null
+2023-05-06 14:34:59.007 [Thread-0] INFO  com.codeborne.selenide.drivercommands.CloseDriverCommand - Hold browser and proxy open: 63 -> ChromeDriver: chrome on WINDOWS (1c10fb5d3a91935616b93c1d85001e06), null
+2023-05-06 14:34:59.007 [Thread-1] INFO  com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\johan\OneDrive\Skrivbord\java\openjfx-20_windows-x64_bin-sdk\javafx-sdk-20\lib\untitled3\build\downloads\1683376477679_61312_1
+2023-05-06 14:37:08.198 [main] INFO  com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+2023-05-06 14:37:08.208 [main] INFO  com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\johan\OneDrive\Skrivbord\java\openjfx-20_windows-x64_bin-sdk\javafx-sdk-20\lib\untitled3\build\downloads\1683376628200_48632_1
+2023-05-06 14:37:08.934 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+2023-05-06 14:37:09.023 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\johan\.cache\selenium\chromedriver\win32\112.0.5615.49\chromedriver.exe
+2023-05-06 14:37:10.995 [main] INFO  com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
+2023-05-06 14:37:10.996 [main] INFO  com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
+2023-05-06 14:37:10.996 [main] INFO  com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
+2023-05-06 14:37:11.163 [main] INFO  com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=112.0.5615.138 Platform=WINDOWS
+2023-05-06 14:37:11.164 [main] INFO  com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.23.3
+2023-05-06 14:37:11.164 [main] INFO  com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+2023-05-06 14:37:11.165 [main] INFO  com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (3c2ba2c93bae556815a25f915b501e06)
+2023-05-06 14:37:11.168 [main] INFO  com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (3c2ba2c93bae556815a25f915b501e06), null
+2023-05-06 14:37:27.535 [Thread-0] INFO  com.codeborne.selenide.drivercommands.CloseDriverCommand - Hold browser and proxy open: 60 -> ChromeDriver: chrome on WINDOWS (3c2ba2c93bae556815a25f915b501e06), null
