@@ -1,0 +1,99 @@
+<html lang="sv"><head>
+	<title>
+		Logga in
+	</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="/idp/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/idp/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/idp/images/favicon-16x16.png">
+	<link rel="stylesheet" type="text/css" href="/idp/css/shibboleth.css">
+	<script type="text/javascript" src="/idp/js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="/idp/js/nyaidp.js"></script>
+</head>
+
+<body class="idp-page loginpage shib-lang-sv">
+
+	<header>
+		<div class="header-wrapper">
+			<div id="shib-logo">		
+					<picture>
+						<source media="(max-width:768px)" srcset="/idp/images/a-logotype.svg">
+						<img class="shib-lang-sv" src="/idp/images/a-logo-full-a.svg" lang="sv" alt="Antagning.se">
+					</picture>		
+					<picture>
+						<source media="(max-width:768px)" srcset="/idp/images/a-logotype.svg">
+						<img class="shib-lang-en" src="/idp/images/a-logo-full-ua.svg" lang="en" alt="Universityadmissions.se">
+					</picture>		
+			</div>
+			
+			<div id="shib-lang-menu" class="text-buttons">
+			
+				<button type="button" name="langbutton" class="shib-lang-toggle">
+					<span class="shib-lang-sv" lang="en">In English</span>
+					<span class="shib-lang-en" lang="sv">Byt till svenska</span>
+				</button>
+				
+			</div>
+		</div>
+	</header>
+
+	<main class="shib-content">
+	
+	<section>
+
+		<h1 class="shib-lang-sv">Logga in via Antagning.se</h1>
+		<h1 class="shib-lang-en" lang="en">Log in via Universityadmissions.se</h1>
+
+
+
+		<form class="container" action="/idp/profile/SAML2/Redirect/SSO?execution=e1s1" method="post">
+			
+				<div class="textfield shib-error">
+					<input type="text" id="j_username" name="j_username" class="shib-personid defaultFocus" value="" autocomplete="username" placeholder=" " required="" autofocus="" maxlength="130" autocapitalize="none">
+					
+					<label for="j_username" class="show">
+						<span class="shib-lang-sv">Personnummer eller e-post</span>
+						<span class="shib-lang-en" lang="en">Email or Swedish identity number</span>
+						
+						<span class="invisible-error">
+							<span class="shib-error-validation-message">
+								<span class="shib-lang-sv">Felaktigt användarnamn eller lösenord</span>
+								<span class="shib-lang-en" lang="en">Authentication Failed</span>
+							</span>
+						</span>			
+					</label>
+					
+					<p class="helpertext">
+						<span class="shib-lang-sv">Format ÅÅÅÅMMDDNNNN</span>
+						<span class="shib-lang-en" lang="en">Format YYYYMMDDNNNN</span>
+					</p>
+					
+					<p class="shib-error-message">
+						<span class="shib-lang-sv">Fel format - använd ÅÅÅÅMMDDNNNN</span>
+						<span class="shib-lang-en" lang="en">Wrong format - use YYYYMMDDNNNN</span>
+					</p>
+					
+				</div>
+				<div class="textfield password">		
+					<input type="password" name="j_password" id="password" autocomplete="current-password" placeholder=" " maxlength="50">
+					<label for="password" class="show">
+						<span class="shib-lang-sv">Lösenord</span>
+						<span class="shib-lang-en" lang="en">Password</span>
+					</label>
+					<button type="button" class="make_visible" aria-label="Visa Lösenord/Show password"></button>
+				</div>
+				
+				<div class="contained-buttons">
+					<button type="submit" name="_eventId_proceed" class="shib-lang-sv" aria-label="Logga in">Logga in</button>
+					<button type="submit" name="_eventId_proceed" class="shib-lang-en" aria-label="Log in">Log in</button>
+				</div>
+			
+		</form>
+	</section>
+	</main>
+
+
+
+</body></html>
